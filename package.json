@@ -1,6 +1,6 @@
 {
   "name": "@stackverify/forms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "API-first form, lead & order collection SDK. Works on Vercel, React, Next.js, and any frontend framework. No backend required.",
   "main": "./dist/index.cjs",
@@ -39,7 +39,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "prepublishOnly": "npm run build",
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "node test/index.js"
   },
   "devDependencies": {
     "tsup": "^8.5.1",
