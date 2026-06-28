@@ -1,0 +1,51 @@
+{
+  "name": "@stackverify/forms",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API-first form, lead & order collection SDK. Works on Vercel, React, Next.js, and any frontend framework. No backend required.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "forms",
+    "leads",
+    "orders",
+    "api",
+    "serverless",
+    "vercel",
+    "frontend",
+    "no-backend",
+    "saas",
+    "webhooks"
+  ],
+  "author": "StackVerify",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stackmorgan/stackmorgan-forms"
+  },
+  "homepage": "https://stackverify.site/forms",
+  "bugs": {
+    "url": "https://stackverify.site/contact"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@stackverify/forms": "file:stackverify-forms-1.0.0.tgz"
+  }
+}

@@ -1,0 +1,27 @@
+# source files (we only ship dist)
+src
+test
+tsconfig.json
+tsup.config.ts
+
+# development files
+node_modules
+.git
+.github
+
+# logs
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# env files
+.env
+.env.*.local
+
+# documentation (optional - include if you want docs on npm)
+# README.md   ← keep this if you want it visible on npm
+
+# tests
+coverage
