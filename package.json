@@ -39,13 +39,12 @@
     "url": "https://stackverify.site/contact"
   },
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --clean"
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
   },
-  "dependencies": {
-    "@stackverify/forms": "file:stackverify-forms-1.0.0.tgz"
-  }
+  "dependencies": {}
 }
