@@ -1,3 +1,14 @@
+<img src="https://i.ibb.co/Fqgxjt1N/Gemini-Generated-Image-m7irhdm7irhdm7ir.png" alt="StackVerify Logo" width="100%" style="max-width: 900px;">
+
+# StackVerify Forms PHP SDK
+
+![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+Official PHP SDK for StackVerify Forms powered by KyPHP.
+
+Collect form submissions from any PHP application without building your own backend. Send data directly to StackVerify, where submissions can be managed through your dashboard and connected to notifications, webhooks, WhatsApp workflows, and automations.
+
 # StackVerify Forms
 
 [![npm version](https://img.shields.io/npm/v/@stackverify/forms)](https://www.npmjs.com/package/@stackverify/forms)
