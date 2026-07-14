@@ -36,6 +36,10 @@ Instead of building APIs, databases, and notification systems, simply submit you
 
 ## Installation
 
+
+[![NPM](https://nodei.co/npm/db-migrate.png?downloads=true&downloadRank=true)](https://nodei.co/npm/@stackverify/formsa/)
+
+
 ```bash
 npm install @stackverify/forms
 ```
