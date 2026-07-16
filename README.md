@@ -36,8 +36,9 @@ Instead of building APIs, databases, and notification systems, simply submit you
 
 ## Installation
 
-[![NPM](https://nodei.co/npm/@stackverify/forms.png?downloads=true&downloadRank=true)](https://nodei.co/npm/@stackverify/forms/)
-
+<a href="https://nodei.co/npm/@stackverify/forms/">
+  <img src="https://nodei.co/npm/@stackverify/forms.png?downloads=true&downloadRank=true" width="500" alt="NPM">
+</a>
 
 ```bash
 npm install @stackverify/forms
